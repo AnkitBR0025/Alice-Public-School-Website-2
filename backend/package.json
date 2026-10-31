@@ -5,8 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "seed:admin": "node src/scripts/seedAdmin.js"
+    "start": "nodemon server.js",
+    "seed:admin": "node src/scripts/seedAdmin.js",
+    "seed:admin:reset": "node src/scripts/seedAdmin.js --reset-password"
   },
   "keywords": [],
   "author": "",
